@@ -1,0 +1,82 @@
+@import url("reset.css");
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#0000ff
+}
+
+p {
+    padding: 10px;
+    margin: 5px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    height: 80px;
+    background: #4188D2;
+    border-radius: 10px;
+    border: 1px solid #260888;
+    margin: 5px;
+    font-size: 33px;
+    text-align:center;
+}
+
+#content {
+    background: #689CD2;
+    border-radius: 10px;
+    border: 1px solid #cfab00;
+    margin: 5px;
+        padding-bottom: 20px;	
+
+}
+
+#part1 {
+	color:#0000ff;
+	margin:20px;
+
+}
+
+#part2 {
+	margin:20px;
+}
+
+#part3 {
+	margin:20px;
+}
+
+#part4 {
+	margin:20px;
+}
+
+#part5 {
+	margin:20px;
+}
+
+#part6 {
+	margin:20px;
+}
+
+#part7 {
+	margin:20px;
+}
+
+h2 {
+	color:#8C04A8;
+	margin:5px;
+}
+
+#footer {
+    height: 40px;
+    background: #4188D2;
+    border-radius: 10px;
+    border: 1px solid #540083;
+    margin: 5px;
+    text-align:right;
+    font-size: 8px;	
+}
+

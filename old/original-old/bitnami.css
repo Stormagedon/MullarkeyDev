@@ -1,0 +1,88 @@
+body { font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; margin: 0; background: url(./img/apps-background.png) no-repeat fixed 0 100%; }
+
+h1 { font-weight: 300; font-style: normal; color: #222222;}
+h2 {margin-top:0;margin-bottom:0;font-size:25px;padding-top:0;padding-bottom:0}
+h3 { font-weight: 200; font-style: normal; color: #222222; line-height: 1.5em}
+.center {margin-left:auto;margin-right:auto}
+#content .text-center {text-align:center}
+
+#container:before { content: ''; position: absolute; z-index: -1; width: 100%; height: 3px; background: url(./img/google-border.png) repeat 0 0; background-size: 75% auto; }
+#container .title {text-align:center;margin-bottom:5px;padding-bottom:0;}
+.subtitle {font-size:22px;color:#9a9a9a;text-align:center;margin:0 auto;display:block;}
+.clear {clear:both}
+.center {margin-left:auto;margin-right:auto;}
+
+#header {background:#fff;height:75px;width:100%;}
+
+#dashboard-content {margin-left:auto;margin-right:auto;margin-top:15px;width:780px}
+#dashboard-slogan {margin-top:30px;float:left;display:block;width:520px}
+#dashboard-slogan h1 {font-size:40px;margin-top:0;padding-top:0;margin-left:0;margin-bottom:0}
+#dashboard-slogan p {margin-top:0.5em;font-size:1.4em;}
+
+.dashboard-button-big {text-align:center;font-size:22px;/*background:url(./img/dashboard-button-big.gif) top left;background-repeat: no-repeat;*/width:227px;padding-top:10px;margin-left:4%;margin-top:10px;}
+
+.dashboard-button-big  a {display:block;text-decoration:none}
+.dashboard-button-big  a:link {color:black}
+.dashboard-button-big  a:visited {color:black}
+.dashboard-button-big  a:hover {color:#5a5a5a}
+
+#dashboard-right-area {float:right;margin-top:30px;}
+
+/* Launch Page CSS */
+#container .launch-page {margin-top:0;_height:1000px;padding-top:50px}
+#container .launch-slogan {width:400px}
+
+#container .launch-button  a {color:white}
+#container .launch-button, #container .launch-button-blue { font-size: 18px;  }
+#container .launch-button {background-color:#999;border-color:#8c8c8c;border-radius:3px;width:300px;padding:11px 0;margin-left:4%;margin-top:10px;}
+#container .launch-button-blue {background-color:#4285f4;}
+
+/* Applications Launch Page CSS */
+#container .applications-launch-page {width:500px;padding-top:30px;}
+#container .applications-launch-page h1 {margin-top:0}
+
+.plain-background#container {background: url(./img/plain-background.png) top center no-repeat ;width:100%;min-height:1000px;}
+.applications-launch-page #content {padding-left:0px;font-size: 12px;line-height:1.3em;text-align:center}
+.applications-title {text-align:center;padding-top:0px}
+
+.module_table {margin-bottom:15px}
+.module_content {text-align:left;width:509px;_width:507px;border-left:1px solid #bababf;border-right:1px solid #bababf;padding:0;margin:0;background:#fff}
+.module_content_right {width:100%}
+.module_content table img {padding-left:22px}
+.module_content table {width:100%}
+.module_content h2 {font-size:18px;padding-bottom:16px;text-align:left;padding-left:14px;float:left;}
+.module_folder {padding-left:12px;max-width:280px;float:right;display:block;padding-right:16px;font-size:10px;padding-bottom:4px;text-align:right;margin-right:0;clear:right}
+.module_content p {clear:left;padding-left:14px;padding-right:18px;}
+.module_access {clear:right;font-size:14px;margin-right:0px;padding-right:16px;padding-top:12px;margin-bottom:6px}
+.module_access a {text-decoration: underline !important;}
+.tableParagraph {width:700px; margin-left:auto; margin-right:auto;text-align:left}
+.tableParagraph img {margin-right:12px;margin-bottom:12px}
+
+.virtual-appliances-logo-block {font-size:21px;line-height:28px;width:450px;}
+.virtual-appliances-logo-block  img {margin-right:20px; width: 110px; height: 117px;}
+
+/*
+.va-components-row {padding-bottom:20px;min-width:440px;}
+.va-components-row img {margin-right:12px;}
+*/
+
+#container .get_started_ami_landing {width:200px;float:right}
+#container .get_started_ami_landing  img {width:200px;height:96px;margin-top:0px}
+#container .landing-info-quad-title {font-size:26px;display:block;margin:0 auto;text-align:center;color :green   }
+
+/* theme download */
+
+.center-element {margin-left:auto;margin-right:auto}
+#container .green-round-quad {width:430px;background: #80c33a;position:relative;color:#fff;height:112px;font-size:15px;font-weight:bold;line-height:20px;margin-top:20px;margin-bottom:20px;font-family: Verdana, Arial, Helvetica, sans-serif;}
+#container .green-round-quad .info-side {width:260px;text-align:left;margin:0;padding:20px}
+#container .green-round-quad .info-side a {text-align:center;margin-left:auto;margin-right:auto;display:box;line-height:32px}
+#container .green-round-quad a , #container .green-round-quad a :link , #container .green-round-quad  a:visited {color:#fff;}
+.green-round-quad .top-left, .green-round-quad .top-right, .green-round-quad .bottom-left, .green-round-quad .bottom-right {width:11px;height:11px;padding:0;margin:0;position:absolute;z-index:30;border:0;background-repeat: no-repeat;_background:none;}
+.green-round-quad .top-left {left:0px;top:0px;background:url(./img/green-quad-top-left.png) top left;}
+.green-round-quad .top-right {right:0px;top:0px;background:url(./img/green-quad-top-right.png) top left;}
+.green-round-quad .bottom-left {left:0px;bottom:0px;background:url(./img/green-quad-bottom-left.png) top left;}
+.green-round-quad .bottom-right {right:0px;bottom:0px;background:url(./img/green-quad-bottom-right.png) top left;}
+.theme-icon-button {position:absolute;right:0;top:-13px;z-index:40;display:box;}
+
+.bch-screenshot {display:inline-block;float:right;margin-top:55px}
+
